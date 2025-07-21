@@ -1,7 +1,7 @@
 export interface Property {
   id: string;
   name: string;
-  type: 'flat' | 'shop';
+  type: string;
   floor?: number;
   price: number;
   downPayment: number;
